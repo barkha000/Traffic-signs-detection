@@ -26,8 +26,8 @@ https://github.com/barkha000/Traffic-signs-detection.git
 7. keras.models
 8. keras.layers
 # About this project
-In this project i have use dataset from kaggle then i imported necessary libraries , then i perform EDA, then i build CNN model because CNN model is best for image classification purpose,
-#Architecture of our model are:
+In this project i have use dataset from kaggle then i imported necessary libraries , then i perform EDA, then i build CNN model because CNN model is best for image classification purpose,then i train and validate the model to predict best,then i test my model with test dataset,then at last my model get ready to predict the name of traffic sign.
+# Architecture of our model are:
 2 Conv2D layer (filter=32, kernel_size=(5,5), activation=”relu”)
 MaxPool2D layer ( pool_size=(2,2))
 Dropout layer (rate=0.25)
@@ -39,7 +39,7 @@ Dense Fully connected layer (256 nodes, activation=”relu”)
 Dropout layer (rate=0.5)
 Dense layer (43 nodes, activation=”softmax”)
 
-then i train and validate the model to predict best,then i test my model with test dataset,then at last my model get ready to predict the name of traffic sign.
+
 # Thank-You
 
 
